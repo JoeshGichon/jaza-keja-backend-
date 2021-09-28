@@ -3,6 +3,7 @@ from flask_restful import Resource, Api
 
 api = Api(main)
 
+
 class HelloWorld(Resource):
     def get(self):
         return {'hello': 'world'}
